@@ -112,13 +112,12 @@ header .button{
     display: flex;
     align-items: center;
     justify-content: center;
-  
+}
   /* Fin header */
 
   /* Inicio sección content */
-  
+
 .content-section {
-    width: 100vw;
     height: 540px;
     padding: 107px 292px 126px;
     background-image: url(./assets/images/Content&form.png);
@@ -157,5 +156,4 @@ header .button{
     text-align: center;
     opacity: 70%;
 }
-  
-  /* Fin sección content */
+    /* Fin sección content */
