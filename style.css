@@ -5,7 +5,7 @@
     margin:0;
     box-sizing: border-box;
     font-family:"DM Sans", sans-serif;
-    color:white;
+    color:var(--blanco);
     text-decoration:none;
     list-style: none;
 }
@@ -20,13 +20,16 @@
     --rojo:            #EA3223;
     --rojo-claro:      #E93A7D;
     --gris-tipografia: #A1A1B0;
+
     --gris-borde:      #EAEAED;
+    --blanco:          #ffffff;
     /* Tipografías */
     --regular: 400;
     --medium:  500;
-    --semibold:600;
-    --bold:    700;
+    --bold:    600;
 }
+
+/* Inicio header */
 
 header{
     height:100vh;
@@ -73,7 +76,7 @@ header .carrousel{
 
 header .etiqueta{
     font-size: 24px;
-    font-weight: var(--semibold);
+    font-weight: var(--bold);
 }
 
 header .arrows-title{
@@ -110,3 +113,47 @@ header .button{
     align-items: center;
     justify-content: center;
 }
+  /* Fin header */
+
+  /* Inicio sección content */
+
+.content-section {
+    height: 540px;
+    padding: 107px 292px 126px;
+    background-image: url(./assets/images/Content&form.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: var(--violeta-claro);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: var(--blanco);
+}
+
+.content-section span {
+    font-size: 14px;
+    font-weight: var(--bold);
+    letter-spacing: 2px;
+}
+
+.content-section h2 {
+    width: 815px;
+    font-size: 58px;
+    font-weight: var(--bold);
+    line-height: 70px;
+    letter-spacing: 1px;
+    text-align: center;
+    margin-top: 29px;
+    margin-bottom: 34px;
+}
+
+.content-section p {
+    width: 770px;
+    font-size: 18px;
+    font-weight: var(--medium);
+    line-height: 28px;
+    text-align: center;
+    opacity: 70%;
+}
+    /* Fin sección content */
