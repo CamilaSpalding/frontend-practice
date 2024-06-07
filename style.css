@@ -18,8 +18,51 @@
     --rojo-claro:      #E93A7D;
     --gris-tipografia: #A1A1B0;
     --rosa-borde:      #EAEAED;
+    --blanco:          #ffffff;
     /* Tipografías */
     --regular: 400;
     --medium:  500;
-    --bold:    700;
+    --bold:    600;
+}
+
+
+.content-section {
+    width: 100vw;
+    height: 540px;
+    padding: 107px 292px 126px;
+    background-image: url(./assets/images/Content&form.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: var(--violeta-claro);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: var(--blanco);
+}
+
+.content-section span {
+    font-size: 14px;
+    font-weight: var(--bold);
+    letter-spacing: 2px;
+}
+
+.content-section h2 {
+    width: 815px;
+    font-size: 58px;
+    font-weight: var(--bold);
+    line-height: 70px;
+    letter-spacing: 1px;
+    text-align: center;
+    margin-top: 29px;
+    margin-bottom: 34px;
+}
+
+.content-section p {
+    width: 770px;
+    font-size: 18px;
+    font-weight: var(--medium);
+    line-height: 28px;
+    text-align: center;
+    opacity: 70%;
 }
