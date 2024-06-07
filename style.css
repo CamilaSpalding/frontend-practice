@@ -5,6 +5,9 @@
     margin:0;
     box-sizing: border-box;
     font-family:"DM Sans", sans-serif;
+    color:white;
+    text-decoration:none;
+    list-style: none;
 }
 
 :root {
@@ -17,9 +20,93 @@
     --rojo:            #EA3223;
     --rojo-claro:      #E93A7D;
     --gris-tipografia: #A1A1B0;
-    --rosa-borde:      #EAEAED;
+    --gris-borde:      #EAEAED;
     /* Tipografías */
     --regular: 400;
     --medium:  500;
+    --semibold:600;
     --bold:    700;
+}
+
+header{
+    height:100vh;
+    background-color: var(--violeta-claro);
+    background-image: url(assets/images/Landing.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    z-index: 20;
+    display:flex;
+    flex-direction: column;
+    justify-content: baseline;
+    align-items: center;
+    
+}
+
+header .nav{
+    padding-top: 85px;
+    font-size: 18px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    gap:50px;
+}
+
+header li a img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header .carrousel{
+
+    padding-top: 142px;
+    padding-bottom: 58px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap:30px;
+}
+
+header .etiqueta{
+    font-size: 24px;
+    font-weight: var(--semibold);
+}
+
+header .arrows-title{
+    display: flex;
+    gap:300px;
+}
+
+header .arrows-title h1{
+    font-size: 72px;
+    letter-spacing: 1px;
+}
+
+header .description{
+    width: 736px;
+    font-size: 22px;
+    line-height: 35px;
+}
+
+header .selector{
+    width:91px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap:9px;
+}
+
+header .button{
+    width:230px;
+    height:60px;
+    border-radius: 100px;
+    background-color: var(--violeta);
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
