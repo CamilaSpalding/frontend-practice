@@ -20,9 +20,9 @@
     --rojo:            #EA3223;
     --rojo-claro:      #E93A7D;
     --gris-tipografia: #A1A1B0;
-
     --gris-borde:      #EAEAED;
     --blanco:          #ffffff;
+    --b-opacidad-30:   #ffffff4d;
     /* Tipografías */
     --regular: 400;
     --medium:  500;
@@ -255,3 +255,65 @@ header .button{
 }
 
 /* Fin sección features */
+
+/* Inicio sección testimonial */
+
+.testimonial{
+    height:800px;
+    background-color: var(--violeta-oscuro);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.testimonial .contenedor{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.testimonial .contenedor h2{
+    font-size: 42px;
+    line-height: 52px;
+}
+
+.testimonial .contenedor-articulos{
+    width:970px;
+    height:504px;
+    display: flex;
+    flex-wrap: wrap;
+    gap:30px
+}
+
+.testimonial .contenedor-articulos article{
+    height:237px;
+    width:470px;
+    display: flex;
+    gap: 30px;
+    padding: 33px 26px 21px 33px;
+    border: 2px solid rgba(255, 255, 255, 0.15);
+    border-radius: 10px;
+}
+
+.testimonial .contenedor-articulos article div{
+    height:179px;
+    width:307px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 13px;
+}
+
+.testimonial .contenedor-articulos article div p{
+    font-size: 18px;
+    line-height: 28px;
+    
+}
+
+.testimonial .contenedor-articulos article div span{
+    font-size:14px;
+    letter-spacing: 2px;
+    color: var(--b-opacidad-30)
+}
+
+/* Fin sección testimonial */
