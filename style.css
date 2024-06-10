@@ -115,8 +115,8 @@ header .button{
 }
   /* Fin header */
 
-  /* Inicio sección content */
 
+/* Inicio sección content */
 .content-section {
     height: 540px;
     padding: 107px 292px 126px;
@@ -137,7 +137,7 @@ header .button{
     letter-spacing: 2px;
 }
 
-.content-section h2 {
+.content-section h1 {
     width: 815px;
     font-size: 58px;
     font-weight: var(--bold);
@@ -156,7 +156,8 @@ header .button{
     text-align: center;
     opacity: 70%;
 }
-    /* Fin sección content */
+/* Fin sección content */
+
 
     /* Inicio sección features */
 
