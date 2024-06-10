@@ -318,3 +318,78 @@ header .button{
 }
 
 /* Fin sección testimonial */
+
+/* Inicio sección ShowCase */
+
+.showcase{
+    height:1130px;
+    background-color: var(--violeta-claro);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.showcase .contenedor{
+    display: flex;
+    flex-direction: column;
+    gap:53px;
+}
+
+.showcase .contenedor .titulo-link{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.showcase .contenedor .titulo-link h2{
+    font-size: 42px;
+    letter-spacing: 1px;
+}
+
+.showcase .contenedor .titulo-link a{
+    font-size: 18px;
+    border: 2px solid #ffffff4d;
+    border-radius: 100px;
+    padding: 13px 24px 11px 24px
+}
+
+.showcase .contenedor .contenedor-cartas{
+    height: 816px;
+    width:970px;
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 30px;
+    row-gap: 70px;
+}
+
+.showcase .contenedor .contenedor-cartas .carta{
+    height:371px;
+    width:470px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap:30px;
+}
+
+.showcase .contenedor .contenedor-cartas .texto{
+    height:61px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.showcase .contenedor .contenedor-cartas .texto .nombre{
+    font-size: 14px;
+    letter-spacing: 2px;
+    line-height: 26px;
+}
+
+.showcase .contenedor .contenedor-cartas .texto .titulo{
+    font-size: 22px;
+    line-height: 32px;
+}
+
+/* Fin section showcase */
