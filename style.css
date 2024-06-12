@@ -23,6 +23,7 @@
     --gris-borde:      #EAEAED;
     --blanco:          #ffffff;
     --b-opacidad-30:   #ffffff4d;
+    --borde-inputs:    #EBEAED;
     /* Tipografías */
     --regular: 400;
     --medium:  500;
@@ -394,3 +395,227 @@ header .button{
 }
 
 /* Fin section showcase */
+
+/* Inicio sección contact */
+
+.contacto{
+    height: 770px;
+    background-image: url(./assets/images/Contact.png);
+    background-color: var(--violeta-claro);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+}
+
+.contacto .contactoContenedor{
+    width:1069px;
+    height:570px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.contacto .contactoContenedor .info-credenciales{
+    width:410px;
+    height:570px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap:53px;
+}
+
+.contacto .contactoContenedor .info-credenciales .info{
+    height:208px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    gap:28px;
+}
+
+.contacto .contactoContenedor .info-credenciales .info h2{
+    font-size: 42px;
+    letter-spacing: 1px;
+    font-weight: 550;
+}
+
+.contacto .contactoContenedor .info-credenciales .info p{
+    font-size: 22px;
+    line-height: 32px;
+}
+
+.contacto .contactoContenedor .info-credenciales .credenciales{
+    width: 282px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.contacto .contactoContenedor .info-credenciales .credenciales .dato{
+    display: flex;
+    align-items: center;
+    gap:15px;
+}
+
+.contacto .contactoContenedor .info-credenciales .credenciales .dato span{
+    font-size: 16px;
+    font-weight: 200;
+    line-height: 26px;
+}
+
+.contacto .contactoContenedor .info-credenciales .credenciales .dato .imagen{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contacto .contactoContenedor .info-credenciales .credenciales .dato:nth-child(3){
+    display: flex;
+    align-items: flex-start;
+    gap:15px;
+}
+
+
+
+
+
+.contacto .contactoContenedor .formulario{
+    width: 470px;
+    height: 570px;
+    padding: 58px 50px 56px 50px;
+    background-color: var(--blanco);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.contacto .contactoContenedor .formulario .nombre-presupuesto{
+    display: flex;
+    gap: 30px;
+}
+
+.contacto .contactoContenedor .formulario .nombre-presupuesto .input:nth-child(1) input{
+    width: 200px;
+}
+
+.contacto .contactoContenedor .formulario .nombre-presupuesto .input select{
+    height: 50px;
+    width: 140px;
+    padding: 10px 24px 14px 24px;
+    border: 2px solid var(--borde-inputs);
+    border-radius: 100px;
+    font-size: 18px;
+    font-weight: 550;
+    color: var(--violeta-oscuro);
+    appearance: none;
+    background: url('./assets/icons/arrow_down.png') no-repeat right center;
+}
+
+
+.contacto .contactoContenedor .formulario .nombre-presupuesto .input select option{
+    font-size: 18px;
+    font-weight: 550;
+    color: var(--violeta-oscuro)
+}
+
+.contacto .contactoContenedor .formulario .input{
+    display: flex;
+    flex-direction: column;
+    gap: 13px;
+}
+
+.contacto .contactoContenedor .formulario .input label{
+    color: var(--violeta-oscuro);
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+
+
+.contacto .contactoContenedor .formulario .input input{
+    color:black;
+    height:50px;
+    font-size: 18px;
+    padding: 12px 0px 12px 24px;
+    border: 2px solid var(--borde-inputs);
+    border-radius: 100px;
+}
+
+.contacto .contactoContenedor .formulario .input input::placeholder{
+    color:rgba(0, 0, 0, 0.4);
+    font-weight: 550;
+}
+
+.contacto .contactoContenedor .formulario .input textarea{
+    resize: none;
+    color:black;
+    height:110px;
+    font-size: 18px;
+    padding: 12px 24px 12px 24px;
+    border: 2px solid var(--borde-inputs);
+    border-radius: 10px;
+}
+
+.contacto .contactoContenedor .formulario .input textarea::placeholder{
+    color:rgba(0, 0, 0, 0.4);
+    font-weight: 550;
+}
+
+.contacto .contactoContenedor .formulario .input.especial input{
+    height:110px;
+    border-radius: 10px;
+    columns: 10;
+    padding: 0 15px 50px 20px;
+}
+
+.contacto .contactoContenedor .formulario .checkbox-submit{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contacto .contactoContenedor .formulario .checkbox-submit .checkbox{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.contacto .contactoContenedor .formulario .checkbox-submit .checkbox span{
+    color: rgba(0, 0, 0, 0.4);
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.contacto .contactoContenedor .formulario .checkbox-submit .checkbox input{
+    width:20px;
+    height:20px;
+    appearance: none;
+    border:1px solid black;
+    border-radius: 5px;
+}
+
+.contacto .contactoContenedor .formulario .checkbox-submit .checkbox input:checked{
+    appearance: none;
+    border:none;
+    border-radius: 0;
+    background-image: url(./assets/icons/checked-icon.png);
+}
+.contacto .contactoContenedor .formulario .checkbox-submit button{
+    background-color: var(--verde);
+    border: none;
+    padding: 12px 38px;
+    border-radius: 100px;
+    font-size: 18px;
+}
+
+.contacto .contactoContenedor .formulario .checkbox-submit button:hover{
+    cursor: pointer;
+    background-color: #21d3be;
+}
+
+.contacto .contactoContenedor .formulario .checkbox-submit button:focus{
+    cursor: pointer;
+    background-color: #179687;
+}
