@@ -503,7 +503,7 @@ header .button{
 .contacto .contactoContenedor .formulario .nombre-presupuesto .input select{
     height: 50px;
     width: 140px;
-    padding: 10px 24px 14px 24px;
+    padding: 10px 24px 10px 24px;
     border: 2px solid var(--borde-inputs);
     border-radius: 100px;
     font-size: 18px;
