@@ -619,3 +619,64 @@ header .button{
     cursor: pointer;
     background-color: #179687;
 }
+
+/* Fin sección contacto */
+
+/* Inicio footer */
+
+footer{
+    height: 240px;
+    background-color: var(--violeta-claro);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:50px;
+}
+
+footer .arriba{
+    width:1170px;
+    height: 72px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid #ffffff4d;
+}
+
+footer .arriba .titulo h2{
+    font-size: 24px;
+    font-weight: 500;
+}
+
+footer .arriba .about{
+    display: flex;
+    gap:28px;
+}
+
+footer .arriba .about div a{
+    font-size: 16px;
+    font-weight: 300;
+}
+
+
+
+footer .abajo{
+    width:1170px;
+    display: flex;
+    justify-content: space-between;
+    gap:350px;
+}
+
+footer .abajo .selectores{
+    display: flex;
+    gap:28px;
+}
+
+footer .abajo .selectores div .texto{
+    font-size: 16px;
+    font-weight: 250;
+}
+
+footer .abajo .derechos span{
+    font-size: 16px;
+    font-weight: 250;
+}
